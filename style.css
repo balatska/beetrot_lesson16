@@ -1,3 +1,13 @@
+@font-face {
+    font-family: miso;
+    src: url(fonts/miso/miso.otf);
+}
+
+@font-face {
+    font-family: lato;
+    src: url(fonts/lato/lato-light.ttf);
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -39,23 +49,17 @@ body {
 .prise {
     color: #02995b;
     font-size: 70px;
-}
-
-.block-bronze,
-.block-silver {
-    width: 360px;
-    height: 440px;
-}
-
-.block-gold {
-    width: 360px;
-    height: 500px;
+    font-family: miso;
+    font-weight: bold;
 }
 
 .status {
     font-size: 56px;
+    font-family: miso;
 }
 
 .deskription {
     font-size: 20px;
+    font-family: lato;
 }
+
